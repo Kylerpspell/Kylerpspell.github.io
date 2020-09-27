@@ -1,7 +1,23 @@
 body{
 	background: CornflowerBlue;
-	font-family: 
+	font-family: Arial, Helvetica, sans-serif
 }
+.assignment{
+	display:flex;
+	padding:10px;
+
+}
+
+.assignment details{
+	margin: 10px; 
+}
+.assignment img {
+	width: 200px;
+	padding: 10px;
+	margin: 10px;
+	background-color: darkcyan;
+}
+
 h1{
 	color: black;
 	text-align: center;
