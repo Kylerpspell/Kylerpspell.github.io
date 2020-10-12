@@ -5,6 +5,11 @@ body{
 .assignment{
 	display:flex;
 	padding:10px;
+	margin:10px;
+	margin-bottom: 30px;
+	background:rgb(40, 209, 96);
+	border-radius:5px;
+	box-shadow: rgb(100, 121, 237);
 
 }
 
@@ -14,9 +19,19 @@ body{
 	padding: 10px;
 	margin: 10px;
 	background-color: darkcyan;
+	border-radius: 5px;
 }
 
 h1{
 	color: black;
 	text-align: center;
+}
+
+a{
+	text-decoration:none;
+	color:#fff;
+}
+
+.assignment a:hover{
+	color:green;
 }
