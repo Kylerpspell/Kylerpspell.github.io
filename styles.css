@@ -3,23 +3,29 @@ body{
 	font-family: Arial, Helvetica, sans-serif
 }
 .assignment{
-	display:flex;
+	width:45%;
+	height:40%;
 	padding:10px;
 	margin:10px;
 	margin-bottom: 30px;
 	background:rgb(40, 209, 96);
-	border-radius:5px;
 	box-shadow: rgb(100, 121, 237);
 
 }
 
+.assignments {
+	display:flex;
+	flex-wrap:wrap;
 
+}
 .assignment img {
 	width: 200px;
 	padding: 10px;
 	margin: 10px;
 	background-color: darkcyan;
 	border-radius: 5px;
+	display:block;
+	margin:auto;
 }
 
 h1{
