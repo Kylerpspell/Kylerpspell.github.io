@@ -1,0 +1,72 @@
+* {
+    font-family: "Calibri", sans-serif;
+    font-weight: 500;
+}
+/* NAVBAR */
+
+    /* Add a black background color to the top navigation */
+    .topnav {
+        background-color: rgb(115, 0, 10);
+        overflow: hidden;
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: #aaa;
+        color: #fff;
+    }
+    
+    /* Add a color to the active/current link */
+    .topnav a.active {
+        background-color: #000;
+        color: white;
+    }
+
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+
+  /* Left column */
+  .leftcolumn {
+    float: center;
+    justify-content: center;
+    width: 75%;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
